@@ -1,0 +1,75 @@
+.attendance-app {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 25px;
+  background: linear-gradient(to right, #6688cc, #995588);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.student-list {
+  width: 65%;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.student-item {
+  list-style: none;
+  margin: 12px 0;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.student-item:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.attended {
+  background-color: #ccf7cc;
+}
+
+.attendance-record {
+  width: 65%;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+ul {
+  padding: 0;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #0099ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0077cc;
+}
